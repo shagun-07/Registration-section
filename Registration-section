@@ -1,0 +1,32 @@
+ <div class="reg">
+        <form id="reg" method="post" action="..php">
+             <h2>Register here</h2>
+            <label>First Name :</label>
+            <input type="text" name="name" placeholder="First Name" id="name">
+            <br><br>
+            <label>Last Name :</label>
+            <input type="text" name="name" placeholder="Last Name" id="name">
+            <br><br>
+            <label>Email :</label>
+            <input type="email" name="name" placeholder="Enter your email id" id="name">
+            <br><br>
+            <label>Password :</label>
+            <input type="password" name="pass" placeholder="Enter your password" id="name">
+            <br><br>
+            <label>Re Enter Password:</label>
+            <input type="password" name="pass" placeholder="Re-enter your password" id="name">
+            <br><br>
+            <label>Mobile no :</label>
+            <input type="number" name="num" placeholder="Enter your mobile number" id="name">
+            <br><br>
+            <label>Date of Birth :</label>
+            <input type="date" name="date" id="name">
+            <br><br>
+            <label>Gender:</label><br>
+            <input type="radio" id="ma"><span
+             id="ma"> Male</span><input type="radio" id="ma"><span id="ma">Female</span><input type="radio" id="ma"><span id="ma"> Others</span>
+            <br><br>
+      <input type="checkbox" id="ch"><span id="ch"> I Agree all the terms & conditions.</span><br><br>
+      <button type="Submit" id="sub">Register Here</button>
+  </form>
+    </div>
